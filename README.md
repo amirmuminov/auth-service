@@ -1,3 +1,3 @@
 # auth-service
 
-Generateing JWT tokens.
+Generating JWT tokens.
