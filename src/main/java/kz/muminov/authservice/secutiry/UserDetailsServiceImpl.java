@@ -24,7 +24,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         Optional<Employee> employee = employeeRepository.findById(Long.valueOf(id));
         if (employee.isEmpty())
             throw new UsernameNotFoundException("User with id: " + id + " is not found");
-
         return employee.get();
     }
 
